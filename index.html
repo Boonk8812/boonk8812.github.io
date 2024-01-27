@@ -3,3 +3,32 @@
   <h1>Boonk8812's GitHub Pages/Website</h1>
   <div>YouTube: https://youtube.com/@DeclanMiner5143</div>
 </html>
+<title>Declan Murphy's Website</title>
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width,initial-scale=1">
+    <title>Git Track Demo</title>
+  </head>
+  <body>
+    <script src="https://bundle.run/octokit@1.7.0"></script>
+    <script src="GitTrack.js"></script>
+    <noscript>JavaScript is disabled.</noscript>
+
+    <script>
+      const pat = 'YOUR_PERSONAL_ACCESS_TOKEN';
+      const gitTrack = new GitTrack(pat);
+
+      gitTrack
+        .authenticate()
+        .then(() => gitTrack.getActivitySummary())
+        .then((summary) => gitTrack.displayIframe(summary))
+        .catch((error) => alert(error.message));
+    </script>
+  </body>
+
+  <div style="margin-top:2rem;font-size:.8rem;color:blue;text-decoration:underline;">NOTE:</div><div style="margin-left:.75em;font-size:.8rem;">This page is using GitTrack. GitTrack is a JavaScript library that tracks all commits and more of a GitHub account through a PAT (Personal Access Token).</div>
+  
+</html>
+</html>
