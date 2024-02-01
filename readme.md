@@ -20,4 +20,7 @@ Hello! I am a Minecraft, programming, and tech addict. I write in a ton of langu
   set "Uses old hardware as his main = true;"
   ```
 * Also watch my YouTube here: https://youtube.com/@DeclanMiner5143
-* Boonk8812 💌 Open-Source 😠 Closed Source 
+* Boonk8812 💌 Open-Source 😠 Closed Source
+* Discord: https://discord.gg/TNMcwVX9NY
+* Launchpad (Canoical): https://launchpad.net/~declanminer86
+* Old Website # NO LONGER MAINTAINED!: https://declamurphyprogramming.w3spaces.com/
