@@ -80,6 +80,74 @@
     <div id="gameContainer"></div>
     <script src="game.js"></script>
 </body>
+  
 </html>
+
 </html>
+
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <style>
+    body {
+      margin: auto;
+      max-width: 40rem;
+      padding: 1rem;
+      text-align: center;
+    }
+    .btn {
+      border: none;
+      cursor: pointer;
+      color: #fff;
+      background-color: #ddd;
+      padding: 0.5em 1em;
+      font-size: 1rem;
+      font-weight: bold;
+      line-height: normal;
+      letter-spacing: 0.02em;
+      vertical-align: baseline;
+      white-space: nowrap;
+      text-transform: uppercase;
+      text-decoration: none;
+      touch-action: manipulation;
+      box-shadow: 0 0 0 1px transparent, 0 0 0 rgba(0, 0, 0, 0), 0 6px 10px 0 hsla(0, 0%, 0%, 0.15);
+      transition: all 200ms ease-in-out;
+    }
+    @font-face {
+      font-family: ms_dos;
+      src: url('https:/boonk8812.github.io/fonts/~MSDOS_FONT.ttf') format('truetype');
+    }
+    .btn--custom {
+      font-family: ms_dos;
+      position: relative;
+      overflow: hidden;
+    }
+    .btn--custom::before {
+      content: "";
+      z-index: -1;
+      top: 100%;
+      left: 0;
+      right: 0;
+      bottom: 0;
+      background: linear-gradient(transparent 70%, var(--primary-color) 70%);
+      filter: blur(40px);
+      transform: translateY(-100%) scale(2);
+      opacity: 0;
+      transition: all 200ms ease-in-out;
+    }
+    .btn--custom:hover {
+      color: black;
+    }
+    .btn--custom:focus, .btn--custom:hover::before {
+      opacity: 1;
+      transform: translateY(-50%) scale(1.5);
+    }
+  </style>
+</head>
+<body>
+  <a class="btn btn--custom" href="/simbomb.html">Go to SIMBomb page</a>
+</body>
+</html>
+
 </html>
