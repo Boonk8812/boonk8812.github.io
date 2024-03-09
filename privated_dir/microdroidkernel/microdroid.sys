@@ -1,0 +1,4 @@
+SystemVersion        =0.0.1
+SystemBuild          =0.0.1/CoffeeParrot4MicroDroid@e4840281cf028be50
+SystemKernel         =Official
+SystemName           =MicrodroidKernelDevice
