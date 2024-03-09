@@ -1,0 +1,11 @@
+; MicroDroid Kernel Memory Management INF File
+
+[Memory]
+
+min_ram_size=00000000000000850 
+; Megabytes
+max_ram_size=90000000000124000 
+; Megabytes
+
+ram_size_error_msg    ="Incorrect amount of memory/RAM to run kernel !!"
+ram_block_error_msg   ="Bad memory/RAM data block !!"
